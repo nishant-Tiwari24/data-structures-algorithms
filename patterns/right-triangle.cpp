@@ -8,8 +8,8 @@ int main() {
 
     int i = 1;
     while(i<=n) {
-        int j = n - i + 1;
-        while(j<=n) {
+        int j = n - i + 1; // or j = 1;
+        while(j<=n) {      // j < = i
             cout<<"*"<<" ";
             j = j + 1;
         }
