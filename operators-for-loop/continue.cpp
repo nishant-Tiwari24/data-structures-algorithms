@@ -9,5 +9,5 @@ int main() {
         continue; //skips the itreation
         cout<<"no cout";
     }
-    
+    return 0;
 }
