@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     char op;
+    cout<<"Enter the operator: ";
     cin>>op;
     int operand1, operand2;
     cout<<"Enter two operands: ";
