@@ -1,23 +1,18 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 using namespace std;
-
+   
 int main() {
-    int n;
-    cin>>n;
-    int i = 0;
-    int ans = 0;
-    int bit;
+     int n;
+     cin>>n;
+     int dig;
+     int ans = 0, i = 0;
 
-    while (n!=0)
-    {
-        bit = n % 10;
-        if(bit == 1) {
-            ans = ans + pow(2,i);
-        }
-        n = n/10;
+     while(n!=0) {
+        dig = n & 1;
+        ans = (pow(10,i) * dig) + ans;
+        n = n >> 1;
         i++;
-    }
-    cout<<ans<<endl;
-    return 0;
+     }
+     cout<<ans<<endl;
 }
