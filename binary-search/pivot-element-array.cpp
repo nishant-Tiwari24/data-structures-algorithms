@@ -13,6 +13,7 @@ int pivot(int arr[],int n) {
         else {
             e = m;
         }
+        m = s + (e - s)/2;
     }
     return s;
 }
