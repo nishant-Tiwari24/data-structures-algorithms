@@ -21,7 +21,9 @@ int first(vector<int>& arr, int n, int k) {
       m = e + (s-e)/2;
     }
     return ans;
+    
 }
+
 
 int last(vector<int>& arr, int n, int k) {
     int s = 0;
