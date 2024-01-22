@@ -8,7 +8,7 @@ int main() {
     cout<<sizeof(c)<<endl;
 
     int n = 5;
-    int * arr = new int[5];
+    int * arr = new int[5];     //variable size array
     for (int i=0 ;i<n ;i++) {
         arr[i] = i+1;
     }
