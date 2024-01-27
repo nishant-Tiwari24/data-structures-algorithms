@@ -6,4 +6,5 @@ void factorial(int n) {
         return;
     print(n-1);
     cout<<n<<endl;
+    
 }
