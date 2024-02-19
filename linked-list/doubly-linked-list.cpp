@@ -22,3 +22,13 @@ void print(Node* head) {
     }
     cout<<endl;
 }
+
+int length(Node* head) {
+    Node* ptr = head;
+    int count = 0;
+    while(!ptr) {
+        count++;
+        ptr = ptr->next;
+    }
+    cout<< count <<endl;
+}
