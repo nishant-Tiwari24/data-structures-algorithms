@@ -24,6 +24,18 @@ void insertTail(Node* &tail, int val) {
     tail = tail->next;
 }
 
+void insertPosition(Node* &head, int val, int k) {
+    Node* temp = head;
+    int i=1;
+    while(i < k-1) {
+        temp = temp->next;
+        i++;
+    }
+    Node* nodeInsert = new Node(val);
+    nodeInsert->next = temp->next;
+    temp->next = nodeInsert;
+}
+
 void print(Node* &head) {
     Node* temp = head;
     while(temp != NULL) {
