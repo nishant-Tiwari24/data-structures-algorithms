@@ -5,6 +5,10 @@ This structured six-month plan gradually introduces core DSA concepts and patter
 
 ---
 
+# Special Resources
+1. [20 Patterns to Crack MAANG](https://drive.google.com/drive/folders/1HWKovNBImHmyoNlEFEzl71KOiVa3QezO)
+2. [14 Tricks to Identify Patterns](https://drive.google.com/drive/folders/1Da_v5uHIvBscWcRRgMsYGq-hJ00dQL9Y)
+
 ## Month 1: Arrays and Strings
 
 ### **Week 1: Arrays Basics & Simple Patterns**
